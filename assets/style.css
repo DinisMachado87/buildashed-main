@@ -17,7 +17,6 @@ header {
 
 #menu {
     font-size: 130%;
-    text-decoration: none;
     background: #FF7A59;
     
     height: 210px;
@@ -29,6 +28,11 @@ header {
     justify-content: center;
 }
 
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
 #menu div {
     border: 1px solid black;
     padding: 7px;
@@ -36,6 +40,12 @@ header {
 
 #menu div:hover {
     background-color: #B34E36;
+    color: #FF7A59;
+}
+
+.nav_selected {
+    background-color: #B34E36;
+    color: #FF7A59;
 }
 
 #hero {
