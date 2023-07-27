@@ -1,6 +1,8 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
 header {
@@ -49,6 +51,7 @@ header {
 }
 
 #hero {
+    display: flex;
     height: 211px;
     flex-basis: 900px;
     overflow: hidden;
@@ -58,4 +61,28 @@ header {
 #hero img {
     width: 100%;
     object-fit: cover;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.instruction_container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    justify-content: center;
+    gap: 30px;
+    width: 1200px;
+}
+
+.instruction_itself {
+    height: 240px;
+    flex-basis: 568px;
+    background-color: #C796FF;
+    padding: 30px;
+}
+
+.instruction_image {
+    height: 300px;
+    flex-basis: 450px;
+    background: black;
 }
