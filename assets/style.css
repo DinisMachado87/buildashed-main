@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    flex-direction: row;
+    
+    width: 1200px;
+}
+
+#logo {
+    font-size: 200%;
+}
+
+#menu {
+    font-size: 130%;
+    background: #C8A2C8;
+    
+    height: 30vh;
+    flex-basis: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    justify-content: center;
+}
+
+#menu div {
+    border: 1px solid black;
+}
+
+#hero {
+    height: 30vh;
+    flex-basis: 900px;
+    overflow: hidden;
+    flex-grow: 0;
+}
+
+#hero img {
+    width: 100%;
+    object-fit: cover;
+}
