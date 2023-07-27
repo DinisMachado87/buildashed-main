@@ -3,6 +3,7 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    margin: 0;
 }
 
 header {
@@ -64,6 +65,11 @@ header {
     object-fit: cover;
     flex-grow: 1;
     flex-basis: 100%;
+}
+
+.section_container {
+    display: flex;
+    justify-content: center;
 }
 
 .instruction_container {
