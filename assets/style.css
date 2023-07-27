@@ -17,6 +17,7 @@ header {
 
 #menu {
     font-size: 130%;
+    text-decoration: none;
     background: #FF7A59;
     
     height: 210px;
@@ -33,8 +34,12 @@ header {
     padding: 7px;
 }
 
+#menu div:hover {
+    background-color: #B34E36;
+}
+
 #hero {
-    height: 210px;
+    height: 211px;
     flex-basis: 900px;
     overflow: hidden;
     flex-grow: 0;
