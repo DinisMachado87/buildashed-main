@@ -18,14 +18,30 @@
                 <a  href="submit.html"> <div class="nav_selected">Submit your shed!</div></a>
             </div>
         </nav>
-        
+
         <div id="hero">
             <img src="assets/images/shed_in_the Forest.JPG" alt="a 3d simulation of the shed in the forest">
         </div>
 
-        <div></div>
     </header>
 
-    
+   <section>
+        <div class="form_container">
+            <form action="/submit" method="POST">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required><br>
+
+                <label for="photo"> Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*"><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
 </body>
 </html>
