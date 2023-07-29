@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+
 body {
     display: flex;
     justify-content: center;
@@ -92,4 +98,23 @@ header {
     flex-shrink: 0;
     background: black;
     margin: 25px ;
+}
+
+.needs_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
+.needs_itself {
+    border: 1px solid black;
+    height: 240px;
+    padding: 40px 60px;
+    flex-grow: 1;
+    margin: 25px;
+}
+
+li {
+    list-style-type: none;
 }
