@@ -147,24 +147,38 @@ form input{
 @media screen and (max-width: 1000px) {
     header {
         flex-direction: column;
-        height: 400px;
+        height: 350px;
+        flex-wrap: wrap;
     }
     #menu {
+        position: fixed;
+        top: 0%;
+        right: 0%;
+        left: 0%;
         width: 100%;
         flex-direction: row;
-        height: 55px;
+        height: 54px;
+        z-index: 3;
     }
     #logo {
-        font-size: 130%;
+        font-size: 100%;
     }
-    #menu div {
+    #menu a {
         flex-grow: 1;
     }
     #hero {
         height: 100px;
     }
     #hero img {
-        height: 100%;
+        position: absolute;
+
+        height: 40%;
+        left: 0%;
+        right: 0%;
+        top: 53px;
+    }
+    .intructions_under_1000px {
+        flex-direction: row;
     }
 }
 
