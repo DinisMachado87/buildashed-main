@@ -166,6 +166,7 @@ form input{
     }
     #menu a {
         flex-grow: 1;
+        text-align: center;
     }
     #hero {
         height: 100px;
@@ -186,5 +187,44 @@ form input{
         width: 90%;
     }
 
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        flex-direction: collumn;
+        height: 300px;
+        flex-wrap: nowrap;
+    }
+    #logo {
+        font-size: 150%;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        background: #FF7A59;
+    }
+    #menu {
+        position: fixed;
+        top: 43px;
+        height: 67px;
+        width: 100%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #menu div {
+        border: 1px solid black;
+        padding: 5px 50px;
+        flex-grow: 1;
+    }
+    #hero img {
+        position: absolute;
+        top: 67px;
+    }
+    .needs_container {
+        flex-direction: column;
+    }
 }
 
