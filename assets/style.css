@@ -30,7 +30,7 @@ header {
     background: #FF7A59;
     
     height: 300px;
-    flex-basis: 300px;
+    width: 300px;
     
     display: flex;
     flex-direction: column;
@@ -143,3 +143,28 @@ li {
 form input{
     border: 1px solid black;
 }
+
+@media screen and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        height: 400px;
+    }
+    #menu {
+        width: 100%;
+        flex-direction: row;
+        height: 55px;
+    }
+    #logo {
+        font-size: 130%;
+    }
+    #menu div {
+        flex-grow: 1;
+    }
+    #hero {
+        height: 100px;
+    }
+    #hero img {
+        height: 100%;
+    }
+}
+
