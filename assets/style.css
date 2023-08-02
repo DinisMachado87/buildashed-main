@@ -22,7 +22,6 @@ header {
 
 #logo {
     font-size: 220%;
-
 }
 
 #menu {
@@ -42,7 +41,6 @@ header {
     border: 1px solid black;
     flex-grow: 1;
     overflow: hidden;
-    
 }
 
 #menu div {
@@ -104,6 +102,13 @@ header {
     flex-shrink: 0;
     background: black;
     margin: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instruction_image img {
+    height: 300px;
 }
 
 .needs_container {
