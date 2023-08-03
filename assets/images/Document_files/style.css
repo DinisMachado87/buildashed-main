@@ -1,44 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Carme&family=Catamaran&family=Fira+Sans&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
     }
 
-#menu, h1 {
-    font-family: 'Catamaran', sans-serif;
-}
-
-h2, h3 {
-    font-family: 'Fira Sans', sans-serif;
-}
-
-a, p, li, input, label {
-    font-family: 'Carme', sans-serif;
-}
-
-h3, h2, p {
-    margin-bottom: 10px;
-    margin-top: 15px;
-}
-
-h1 {
-    font-size: inherit;
-}
-
 body {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-}
-
-#center_page {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
-    max-width: 1400px;
     width: 100%;
+    margin: 0;
 }
 
 header {
@@ -50,7 +21,7 @@ header {
     width: 100%;
 }
 
-h1 {
+#logo {
     font-size: 220%;
 }
 
@@ -63,33 +34,28 @@ h1 {
     
     display: flex;
     flex-direction: column;
+    flex-grow: 0;
+    justify-content: space-around;
 }
 
 #menu a {
     text-decoration: none;
     color: black;
-    border: 1px solid black;
-    flex-grow: 1;
-    overflow: hidden;
 }
 
 #menu div {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    padding-left: 25px;
+    border: 1px solid black;
+    padding: 15px;
 }
 
 #menu div:hover {
     background-color: #B34E36;
-    color: whitesmoke;
+    color: #FF7A59;
 }
 
 .nav_selected {
     background-color: #B34E36;
-    color: whitesmoke;
+    color: #FF7A59;
 }
 
 #hero {
@@ -130,14 +96,8 @@ h1 {
     height: 300px;
     width: 450px;
     flex-shrink: 0;
+    background: black;
     margin: 25px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.instruction_image img {
-    height: 300px;
 }
 
 .needs_container {
@@ -149,10 +109,10 @@ h1 {
 
 .needs_itself {
     border: 1px solid black;
+    height: 240px;
     padding: 40px 60px;
     flex-grow: 1;
     margin: 25px;
-    height: fit-content;
 }
 
 li {
@@ -169,37 +129,26 @@ li {
 
 .gallery_image {
     height: 200px;
-    width: 300px;
-    flex-shrink: 0;
-    margin: 25px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-basis: 300px;
+    background: black;
+    margin: 25px ;
 }
-
-.gallery_image img{
-    height: 200px;
-}
-
 
 .form_container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 15px;
+    width: 80%;
 }
 
 form input{
     border: 1px solid black;
-    width: 250px;
-    padding: 5px;
 }
 
 @media screen and (max-width: 1000px) {
     header {
         flex-direction: column;
-        height: 300px;
+        height: 350px;
         flex-wrap: wrap;
     }
     #menu {
@@ -209,18 +158,15 @@ form input{
         left: 0%;
         width: 100%;
         flex-direction: row;
-        height: 50px;
+        height: 54px;
         z-index: 3;
     }
-    h1 {
+    #logo {
         font-size: 100%;
     }
     #menu a {
         flex-grow: 1;
-    }
-    #menu div {
-        padding-left: 0%;
-        justify-content: center;
+        text-align: center;
     }
     #hero {
         height: 100px;
@@ -231,7 +177,7 @@ form input{
         height: 250px;
         left: 0%;
         right: 0%;
-        top: 49px;
+        top: 53px;
     }
     .instruction_container {
         flex-wrap: wrap;
@@ -249,39 +195,23 @@ form input{
         height: 300px;
         flex-wrap: nowrap;
     }
+ 
     #menu {
         position: fixed;
-        top: 63px;
-        height: fit-content;
+        top: 43px;
+        height: 67px;
         width: 100%;
         
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: space-around;
     }
-    #menu a {
-        text-align: center;
-        flex: 0 0 50%;
-        max-width: 50%;
-        box-sizing: border-box;
-    }
-
     #menu div {
-        padding: 5px 0px;
+        width:50%
+        border: 1px solid black;
+        padding: 5px 50px;
         flex-grow: 1;
-        height: fit-content;
-    }
-    #logo {
-        min-width: 100%;
-        color: black;
-        position: fixed;
-        top: 0px;
-        right: 0px;
-        left: 0px;
-        background: #FF7A59;
-    }
-    h1{
-        font-size: 150%;
     }
     #hero img {
         position: absolute;
@@ -290,27 +220,16 @@ form input{
     .needs_container {
         flex-direction: column;
     }
+       #logo {
+        width: 100%;
+        font-size: 150%;
+        color: black;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        background: #FF7A59;
+    }
 }
 
-@media screen and (max-width: 320px) {
-    #menu {
-        font-size: 90%;
-        top: 48px;
-    }
-
-    .instruction_image {
-        height: 200px;
-        width: 300px;
-    }
-    .instruction_image img {
-        height: 200px;
-    }
-
-    .needs_itself {
-        padding: 1px 15px;
-        margin: 20px 5px 20px 5px;
-
-    }
-
-}
 
