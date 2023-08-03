@@ -50,6 +50,19 @@ header {
     width: 100%;
 }
 
+footer {
+    display: flex;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
 h1 {
     font-size: 220%;
 }
@@ -193,7 +206,7 @@ li {
 form input{
     border: 1px solid black;
     width: 250px;
-    padding: 5px;
+    padding: 5pxgit a;
 }
 
 @media screen and (max-width: 1000px) {
