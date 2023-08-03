@@ -14,13 +14,26 @@
 
         <header id="header">
             <nav>
-                <div id="menu">
-                    <a href="index.html" id="logo"> <div><h1>Build a Shed!</h1></div></a>
-                    <a href="instructions.html"><div>Instructions</div></a>
-                    <a href="shopping_list.html"> <div class="nav_selected">Shopping List</div></a>
-                    <a href="gallery.html"> <div>Gallery</div> </a>
-                    <a href="submit.html"> <div>Submit your shed!</div></a>
-                </div>
+                <div id="menu" role="navigation">
+                    <a href="index.html" id="logo">
+                      <div aria-label="Home">
+                        <h1>Build a Shed!</h1>
+                      </div>
+                    </a>
+                    <a href="instructions.html">
+                      <div aria-label="Instructions">Instructions</div>
+                    </a>
+                    <a href="shopping_list.html">
+                      <div class="nav_selected" aria-label="Shopping List">Shopping List</div>
+                    </a>
+                    <a href="gallery.html">
+                      <div aria-label="Gallery">Gallery</div>
+                    </a>
+                    <a href="submit.html">
+                      <div aria-label="Submit your shed">Submit your shed!</div>
+                    </a>
+                  </div>
+                  
             </nav>
             <div id="hero">
                 <img src="assets/images/shed_in_the_forest.JPG" alt="a 3d simulation of the shed in the forest">
@@ -195,7 +208,10 @@
       
       </div>
       
-            </section>
+        </section>
+
+        <footer><p>Copyright © 2023 Dinis Machado</p></footer>
+
     </div>
 </body>
 </html>
