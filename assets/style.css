@@ -141,6 +141,7 @@ header {
     padding: 40px 60px;
     flex-grow: 1;
     margin: 25px;
+    height: fit-content;
 }
 
 li {
@@ -281,5 +282,20 @@ form input{
         font-size: 90%;
         top: 39px;
     }
+
+    .instruction_image {
+        height: 200px;
+        width: 300px;
+    }
+    .instruction_image img {
+        height: 200px;
+    }
+
+    .needs_itself {
+        padding: 1px 15px;
+        margin: 20px 5px 20px 5px;
+
+    }
+
 }
 
