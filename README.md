@@ -1,3 +1,5 @@
+![Alt text](Documentation/responsive.png)
+
 # Build a Shed!
 
 Build a Shed is a page sharing instructions and planning to build a simple shed. It has an instructions page, check list for materials and tools and a gallery and form where users can share their built projects.
@@ -6,13 +8,14 @@ Build a Shed is a page sharing instructions and planning to build a simple shed.
 ## Features
 
 ### HEADER
-- Featured at the top of all pages there is a header that icludes the hero image and navigation which adapt in the different constelations to fit diferent screens preservig a landscape format and proportions of the hero image.
+
+Featured at the top of all pages there is a header that icludes the hero image and navigation which adapt in the different constelations to fit diferent screens preservig a landscape format and proportions of the hero image.
 
 ![Alt text](Documentation/header.png)
 
 ### Navigation
 
--The navigation is included inside of the header and their elements rearrage for diferent screen sizes in between a horizontal line and two vertions of a more vertical block to safegard the proportions of the hero image.
+The navigation is included inside of the header and their elements rearrage for diferent screen sizes in between a horizontal line and two vertions of a more vertical block to safegard the proportions of the hero image.
 
 ![Alt text](Documentation/nav.png)
 
@@ -49,3 +52,7 @@ The Gallery Page hosts a series of images submited by the users of built formula
 The Submit your shed page Hosts a simple for for the users to submit fotos of their built versions for the gallery as well as comments and questions.
 
 ![Alt text](Documentation/form.png)
+
+
+## Testing
+
