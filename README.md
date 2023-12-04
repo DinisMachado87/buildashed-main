@@ -14,7 +14,7 @@ Featured at the top of all pages, there is a header that includes the hero image
 
 ### Navigation
 
-The navigation is included inside the header, and its elements rearrange for different screen sizes between a horizontal line and two versions of a more vertical block to safeguard the proportions of the hero image.
+The navigation is included inside the header, and its elements are rearranged for different screen sizes between a horizontal line and two versions of a more vertical block to safeguard the proportions of the hero image.
 
 ![Navigation](Documentation/nav.png)
 
@@ -24,7 +24,7 @@ The body of the page has a margin around its elements to separate it from the ma
 
 ### Build a Shed! (Welcome Message)
 
-When clicking on the logo, the user is taken back to the welcome message, which is the index page. Here, a welcome message sets a personal and caring tone to the website. The page has one single block of text as if it was a paper letter.
+When clicking on the logo, the user is taken back to the welcome message, which is the index page. Here, a welcome message sets a personal and caring tone to the website. The page has one single block of text as if it were a paper letter.
 
 ![Welcome Message](Documentation/welcome.png)
 
@@ -36,7 +36,7 @@ The instructions page includes a series of instructions on how to build the shed
 
 ### Shopping List
 
-The Shopping List page contains two boxes containing a series of lists of everything needed to realize the project. The boxes include a black margin resembling post-it notes or a paper with annotations. The boxes appear side by side on wider screens, preventing unnecessary scrolling, and one over the other on narrower screens to fit the available space without losing readability.
+The Shopping List page contains two boxes containing a series of lists of everything needed to realize the project. The boxes include a black margin resembling Post-it notes or paper with annotations. The boxes appear side by side on wider screens, preventing unnecessary scrolling, and one over the other on narrower screens to fit the available space without losing readability.
 
 ![Shopping List](Documentation/list.png)
 
@@ -47,8 +47,7 @@ The Gallery Page hosts a series of images submitted by the users of built versio
 ![Gallery](Documentation/gallery.png)
 
 ### Submit your Shed!
-
-The Submit your shed page hosts a simple form for the users to submit photos of their built versions for the gallery, as well as comments and questions.
+The Submit Your Shed page hosts a simple form for the users to submit photos of their built versions for the gallery, as well as comments and questions.
 
 ![Submit your Shed](Documentation/form.png)
 
@@ -62,7 +61,7 @@ I tested all the links and confirmed that all of them work and lead where they a
 
 ## Bugs
 
-I encountered bugs of adaptation of the navigation bar to different screen formats and have run several series of code editing and testing to solve them.
+I encountered bugs in the adaptation of the navigation bar to different screen formats and have run several series of code editing and testing to solve them.
 
 ### Unsolved bugs
 
@@ -82,7 +81,7 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
 
 ### Accessibility and Performance
 
-Using Lighthouse in devtools, I confirmed that the website is performing well, accessible, and the colors and fonts chosen are readable.
+Using Lighthouse in devtools, I confirmed that the website is performing well, and accessible, and the colors and fonts chosen are readable.
 
 ![Accessibility and Performance](Documentation/acessibility_performance.png)
 
@@ -94,6 +93,6 @@ The website was deployed to GitHub pages and can be accessed by the link: [Build
 
 Gallery images taken from [Unsplash](https://unsplash.com/)
 
-3D cottage simulation and instruction images drawn by me in [SketchUp](https://www.sketchup.com/)
+3D cottage simulation and instruction images are drawn by me in [SketchUp](https://www.sketchup.com/)
 
 Input on Flexbox from the YouTube channel of [Kevin Powell](https://www.youtube.com/user/KepowOb)
