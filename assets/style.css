@@ -211,12 +211,29 @@ form input, form textarea{
     padding: 5px;
 }
 
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: #FF7A59;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #B34E36;
+    color: whitesmoke;
+}
+
 @media screen and (max-width: 1000px) {
+
     header {
         flex-direction: column;
         height: 300px;
         flex-wrap: wrap;
     }
+
     #menu {
         position: fixed;
         top: 0%;
@@ -227,31 +244,37 @@ form input, form textarea{
         height: 50px;
         z-index: 3;
     }
+
     h1 {
         font-size: 100%;
     }
+
     #menu a {
         flex-grow: 1;
     }
+
     #menu div {
         padding-left: 0%;
         justify-content: center;
     }
+
     #hero {
         height: 100px;
     }
+
     #hero img {
         position: absolute;
-
         height: 250px;
         left: 0%;
         right: 0%;
         top: 49px;
     }
+
     .instruction_container {
         flex-wrap: wrap;
         width: 90%;
     }
+
     .gallery_container {
         width: 90%;
     }
@@ -264,16 +287,17 @@ form input, form textarea{
         height: 300px;
         flex-wrap: nowrap;
     }
+
     #menu {
         position: fixed;
         top: 63px;
         height: fit-content;
         width: 100%;
-        
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
     }
+
     #menu a {
         text-align: center;
         flex: 0 0 50%;
@@ -286,6 +310,7 @@ form input, form textarea{
         flex-grow: 1;
         height: fit-content;
     }
+
     #logo {
         min-width: 100%;
         color: black;
@@ -295,15 +320,22 @@ form input, form textarea{
         left: 0px;
         background: #FF7A59;
     }
+
     h1{
         font-size: 150%;
     }
+
     #hero img {
         position: absolute;
         top: 67px;
     }
+
     .needs_container {
         flex-direction: column;
+    }
+
+    .instruction_image {
+        width: 90%;
     }
 }
 
@@ -314,9 +346,10 @@ form input, form textarea{
     }
 
     .instruction_image {
-        height: 200px;
-        width: 300px;
+        height: 180px;
+        width: 100%;
     }
+
     .instruction_image img {
         height: 200px;
     }
@@ -328,4 +361,3 @@ form input, form textarea{
     }
 
 }
-
