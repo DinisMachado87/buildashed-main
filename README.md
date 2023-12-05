@@ -116,6 +116,12 @@ I tested all the links and confirmed that all of them work and lead where they a
             flex-basis: 100%;
         }
 
+* I was encountering a bug in the instructions page where a small white column would appear in smaller media query. I realised that was due to the instructions image having a fixed width and resolved it changing the width to an adaptable 100%.
+
+        .instruction_image {
+        height: 180px;
+        width: 100%;
+        }
 
 ### Unsolved bugs
 
