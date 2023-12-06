@@ -6,6 +6,15 @@ Build a Shed is a webpage sharing instructions and planning to build a simple sh
 
 Visit [Build a Shed](https://dinismachado87.github.io/buildashed-main/)
 
+## Design
+
+The website boasts a distinctive visual appeal, featuring a prominent heading that contrasts with the technical yet complementary aesthetic of the practical information it delivers. A captivating Hero image, depicting the lush greens of the forest, immerses visitors in the sensory environment envisioned for this crafts project.
+
+The menu adopts a complementary and organic clay orange color, distinguishing each page by a change in button color to signify the active page. 
+
+The header, formed by the Hero image and the menu, maintains a cohesive design, creating a harmonious composition with their complimentare colors and remains consistent throughout the website. 
+
+Each page's content is thoughtfully presented in flexible layouts tailored to highlight the unique nature of the content. Employing a grayscale palette to separate it from the header, the layout maintains a logical system of margins for a cohesive visual experience. Differently managed spaces are strategically articulated to enhance content presentation across various sections of the site with diferent display needs.
 
 ## Features
 
@@ -136,11 +145,11 @@ No unsolved bugs.
 
 No errors or warnings were found when passing through the official W3C validator.
 
-![HTML Validator](assets/images/checker_index.png)
-![HTML Validator](assets/images/checker_instructions.png)
-![HTML Validator](assets/images/checker_shopping_list.png)
-![HTML Validator](assets/images/checker_gallery.png)
-![HTML Validator](assets/images/checker_submit.png)
+![HTML Validator](documentation/checker_index.png)
+![HTML Validator](documentation/checker_instructions.png)
+![HTML Validator](documentation/checker_shopping_list.png)
+![HTML Validator](documentation/checker_gallery.png)
+![HTML Validator](documentation/checker_submit.png)
 
 ### CSS
 
@@ -152,11 +161,27 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
 
 Using Lighthouse in devtools, I confirmed that the website is performing well, and accessible, and the colors and fonts chosen are readable.
 
-![Accessibility and Performance](documentation/acessibility_performance.png)
+![Accessibility and Performance](documentation/Lighthouse188.png)
+![Accessibility and Performance](documentation/Lighthouse189.png)
+![Accessibility and Performance](documentation/Lighthouse190.png)
+![Accessibility and Performance](documentation/Lighthouse191.png)
+![Accessibility and Performance](documentation/Lighthouse192.png)
 
 ## Deployment
 
+### Deployment to GitHub Pages
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * In the [GitHub repository](https://github.com/DinisMachado87/buildashed-main.git), navigate to the Settings tab
+    * From the source section drop-down menu, select the Main Branch, then click "Save".
+    * The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
 The website was deployed to GitHub pages and can be accessed by the link: [Build a Shed!](https://dinismachado87.github.io/buildashed-main/index.html)
+
+### Local Deployment
+To make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+    git clone https://github.com/DinisMachado87/buildashed-main.git
 
 ## Credits
 
