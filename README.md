@@ -161,11 +161,11 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
 
 Using Lighthouse in devtools, I confirmed that the website is performing well, and accessible, and the colors and fonts chosen are readable.
 
-![Accessibility and Performance](documentation/Lighthouse188.png)
-![Accessibility and Performance](documentation/Lighthouse189.png)
-![Accessibility and Performance](documentation/Lighthouse190.png)
-![Accessibility and Performance](documentation/Lighthouse191.png)
-![Accessibility and Performance](documentation/Lighthouse192.png)
+![Accessibility and Performance](documentation/lighthouse188.png)
+![Accessibility and Performance](documentation/lighthouse189.png)
+![Accessibility and Performance](documentation/lighthouse190.png)
+![Accessibility and Performance](documentation/lighthouse191.png)
+![Accessibility and Performance](documentation/lighthouse192.png)
 
 ## Deployment
 
