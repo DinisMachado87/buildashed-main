@@ -4,6 +4,9 @@
 
 Build a Shed is a webpage sharing instructions and planning to build a simple shed. It has an instructions page, a checklist for materials and tools, and a gallery and form where users can share their built projects.
 
+Visit [Build a Shed](https://dinismachado87.github.io/buildashed-main/)
+
+
 ## Features
 
 ### Header
