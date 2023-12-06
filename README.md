@@ -136,6 +136,12 @@ No unsolved bugs.
 
 No errors or warnings were found when passing through the official W3C validator.
 
+![HTML Validator](assets/images/checker_index.png)
+![HTML Validator](assets/images/checker_instructions.png)
+![HTML Validator](assets/images/checker_shopping_list.png)
+![HTML Validator](assets/images/checker_gallery.png)
+![HTML Validator](assets/images/checker_submit.png)
+
 ### CSS
 
 No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
