@@ -167,6 +167,16 @@ Using Lighthouse in devtools, I confirmed that the website is performing well, a
 ![Accessibility and Performance](documentation/lighthouse191.png)
 ![Accessibility and Performance](documentation/lighthouse192.png)
 
+## Compatibility
+
+I have tested the site in Firefox, Google Chrome and Safari and verified their compatibility namely through the different screen breaking points, links and functions.
+
+## Responsiveness
+
+The website was checked by devtools implemented in Firefox and Chrome browsers.
+
+
+
 ## Deployment
 
 ### Deployment to GitHub Pages
